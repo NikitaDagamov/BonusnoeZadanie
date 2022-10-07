@@ -1,0 +1,8 @@
+N = [1,4,5,7,8,10,15,38,36,68,54,82]
+S = sum(N)
+Sz = S / len(N)
+n = 0
+for i in N:
+    if i > Sz:
+        n += 1
+print (n) 
